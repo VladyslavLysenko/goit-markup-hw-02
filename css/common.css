@@ -15,7 +15,7 @@
 
 
 body {
-font-family: 'Roboto', 'Tahoma', 'sans-serif';
+font-family: 'Roboto', 'Oleo Script', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -32,10 +32,25 @@ a{text-decoration: none;}
 .list {
     list-style: none;
 }
-.logo{
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 /* WebStudio */
-    font-family: 'Raleway','sans-serif' ;
-    font-style: normal;
+.logo{
+
+    font-family: 'Raleway','Oleo Script','sans';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -49,7 +64,8 @@ a{text-decoration: none;}
     color: #000000;
 }
 .logo .logo-part-three {
-    color: var(--primary-bg-white-color);
+    color:var(--text-wh-color);
+    
 }
 
 /* Навигация */
