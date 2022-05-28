@@ -16,13 +16,8 @@
 }
 /* Кнопка заказать услугу */
 
-/* Button (Hover) */
-
-.btn-hero:hover,
-.btn-hero:focus {
-    position: absolute;
-    visibility: hidden;
-    
+.btn-hero:hover{
+    background: #188CE8;
 }
 .btn-hero{
     font-family: inherit;
@@ -47,12 +42,18 @@
 .feature-title{
     
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--title-text-color);
 }
+
+.feature-article{
+font-size: 16px;
+}
+
+
 
 /* --Чем мы занимаемся?, Наша команда*/
 .section-title{
