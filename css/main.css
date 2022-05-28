@@ -15,6 +15,15 @@
     color: var(--primary-bg-white-color);
 }
 /* Кнопка заказать услугу */
+
+/* Button (Hover) */
+
+.btn-hero:hover,
+.btn-hero:focus {
+    position: absolute;
+    visibility: hidden;
+    
+}
 .btn-hero{
     font-family: inherit;
     font-weight: 700;
@@ -30,6 +39,8 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+
 
 /* Наши преимущества */
 
