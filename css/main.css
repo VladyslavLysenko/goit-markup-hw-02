@@ -49,9 +49,7 @@
         color: var(--title-text-color);
 }
 
-.feature-article{
-font-size: 16px;
-}
+
 
 
 
@@ -71,4 +69,10 @@ font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color)
+}
+
+.teams .team-icon{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
